@@ -1,4 +1,3 @@
-
 import argparse
 import os
 from data_utils.ShapeNetDataLoader_back import PartNormalDataset
