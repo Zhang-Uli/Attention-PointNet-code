@@ -1,7 +1,3 @@
-"""
-Author: Benny
-Date: Nov 2019
-"""
 import argparse
 import os
 from data_utils.ShapeNetDataLoader_back import PartNormalDataset
@@ -12,8 +8,6 @@ import importlib
 from tqdm import tqdm
 import numpy as np
 from torch.cuda.amp import autocast, GradScaler
-
-#添加
 import matplotlib.pyplot as plt
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
